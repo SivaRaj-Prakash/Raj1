@@ -6,5 +6,5 @@ import org.openqa.selenium.support.FindBy;
 public class ProductPage {
 
 	@FindBy(name="productname")
-	private WebElement productedit;
+	private WebElement productname;
 }
