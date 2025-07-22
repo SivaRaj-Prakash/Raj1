@@ -1,7 +1,9 @@
 package ObjectRepository;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
 public class Homepage {
-  public static void main(String[] args) {
-	System.out.println("Homepage created");
-}
+ @FindBy(id="input")
+ private WebElement usernameedit;
 }
